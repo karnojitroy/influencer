@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #fff;
 }
 
 /* shared styles */
@@ -238,6 +237,28 @@ nav li a {
     margin-left: 8px;
 }
 
+/* footer section */
+footer {
+    text-align: center;
+    padding: 120px 0px;
+    background-color: var(---text-gray-4);
+    color: #FFF;
+    margin-top: 100px;
+}
+
+footer h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+}
 
 /* media query */
 /* mobile */
@@ -325,6 +346,16 @@ nav li a {
     .featured-product-content p {
         width: auto;
         margin: 10px auto;
+    }
+    footer{
+        padding: 105px 0px;
+        margin-top: 50px;
+    }
+    footer h2{
+        font-size: 16px;
+    }
+    footer p{
+        font-size: 12px;
     }
 }
 
