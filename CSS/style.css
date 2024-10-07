@@ -301,9 +301,9 @@ nav li a {
     }
 
     .featured-product {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 20px;
-        margin: 80px 20px;
+        margin: 40px 20px;
         text-align: center;
     }
 
